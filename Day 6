@@ -1,0 +1,74 @@
+Have a great time working on a "manifesto" which is great practice for all I've learned in HTML/CSS.   Still a WIP but it's been 
+such a worthwhile thing to do.  (and is making me a bit obsessive!!!)
+
+<!DOCTYPEhtml>
+	<html>
+		<head>
+			<title>Manifesto</title>
+			<meta charset="utf-8"></meta>
+			<link rel="stylesheet" type="text/css" href="manifesto.stylesheet">
+
+			<link href="https://fonts.googleapis.com/css?family=Alex+Brush|Didact+Gothic|Julius+Sans+One|Lobster|Oleo+Script" rel="stylesheet">
+
+		</head>
+
+		<!--font-family: 'Lobster', cursive;
+font-family: 'Didact Gothic', sans-serif;
+font-family: 'Oleo Script', cursive;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Alex Brush', cursive;-->
+
+		<body>
+
+		<div>
+			<div id="first">
+				<p>follow your <span class ="theme-1">passion</span> it knows where you <span class="theme-2">should </span>go</p>
+
+				<h3><span class="theme-4">help people</span>     <span class="theme-3">explore, play laugh, enjoy</span></h3>
+
+				<p><span class="theme-2">move more &mdash; stress less</span> &#10016 <span class="theme-1">celebrate milestones</span></p>
+
+				<p>you have to put <span class="theme-3">something </span> out there to get something back</span></p>
+
+				</div>
+
+			<div id="second">
+
+				<h3>everything you want and need is <br>up to you to make happen <br> carve a niche get it out there <br><span class="theme-6">make your own path</span></h3>
+			</div>
+
+			<div id="third">
+				<p>define what success looks like for you &mdash; then go after it <span class="theme-1">DO IT NOW </span> <br>collect <span class="theme-2">experiences</span> not things &#10016 <span class="theme-1">ignore doubters,</span> <span class="theme-5">even when they are </span><span class="theme-3">in your own head &#10016 </span> <span class="theme-3">embrace online business believe in yourself </span><span class="theme-1"><br>simplicity is key</span></p>
+			</div>
+
+			<div id="fourth">	
+				<h3><span class="theme-4">norish your mind and body</span> &#10016 take time out often</h3>
+				<p><span class="theme-2">be your own hero &mdash; give yourself permission</span></p>
+				<p>trust your instincts take it one step at a time &#10016 leverage everything</p>
+			</div>
+
+			<div id="fifth">
+				<h2>build your days around what is important to you
+				when you're doing what you're passionate about you're making the world a better place</h2>
+			</div>
+			
+			<div id="sixth">
+				<h3>never stop learning and experimenting <br>
+				<span class="theme-2">the less you spend the more you have</span></h3>
+			</div>
+
+			<div>
+				<h3>be thankful<span class="theme-3"> &#10016 look at your goals </span><span class="theme-1">everyday</span></h3>
+			</div>
+
+
+
+
+	    </div>
+
+
+			
+
+
+		</body>
+	</html>
