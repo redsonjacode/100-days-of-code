@@ -1,0 +1,58 @@
+Have been working on building a website (my first) in my tutorial so I am going to start my own for a project here.  
+Good practice for me.  All makes sense but just need practice!  
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Charlie Pops</title>
+
+</head>
+<body>
+
+<header>
+	<div class="full-width">
+		<h1>Sonja Parsell</h1>
+			<p>Welcome to my world.</p>	
+	</div>	
+
+		<div class="half-width">
+			<h3>Just starting to code but with years of experience.</h3>
+		</div>
+		
+		<div class="half-width">
+			<nav>
+				<ul>
+					<li><a href="#About">About</a></li>
+					<li><a href="#Skills">Skills</a></li>
+					<li><a href="#Interests">Interests</a></li>
+				</ul>	
+			</nav>
+		</div>
+
+	</div>
+
+</header>
+
+<main>
+	<section id="About">
+		<div class="full-width">
+			<h3>Some things you should know. </h3>
+			<div class="half-width">
+				<p>I need to write some copy here.</p>
+			</div>
+			<div class="half-width">
+				<p>And some more here.</p>
+		</div>
+	</div>		
+	</section>
+
+
+</main>
+
+<footer>
+	
+
+</footer>
+
+</body>
+</html>
