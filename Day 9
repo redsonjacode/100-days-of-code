@@ -1,0 +1,281 @@
+Working (hard) on a project, admittidly for a tuturial but there isn't any time left in my day for other coding!
+
+The last 'bug' i am working on is getting the last (footer) section to center.  Driving me crazy...
+
+This a my first website (with heavy guidance from Skillcrush!!): 
+HTML:
+<!doctype html>
+<html>
+    <head>
+        <title>Jubilee Austin, Developer</title>
+          <link rel="stylesheet" href="css/normalize.css">
+          <link rel="stylesheet" href="css/main.css">    
+          <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+          <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+    </head>
+    <body>
+
+    <header>
+    	<div class="full-width">
+       		 <div class="half-width">
+              <h1>Jubilee Austen</h1>
+       		 </div>
+
+       		 <div class="half-width">
+           <nav>
+              <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>  
+       		 	</nav>
+            </div>
+            <h2> <span>Hi,</span> I'm a developer who loves clean & elegant code.</h2>
+    	</div>	
+    </header>
+
+    <main>
+
+    <section id="about">
+   	 	<div class="full-width">
+        <h2>A little bit about me.</h2>
+   	 		<div class="half-width">
+          <p>I’ve made my home base in Providence, Rhode Island with my small growing family. My journey into tech started with a degree in journalism. As I started sharing my writing online, I was fascinated with how easily I could get my voice out there. I was hooked and wanted to learn how to build my own site to fit my own specific needs.</p>
+   	 		</div>
+
+   	 		<div class="half-width">
+          <p>That curiosity then opened a door that could never be shut. When I learned how to build my first website, I realized I found something that gave me the freedom & versatility I was looking for in my work. Now I’ve made a full switch to front-end development, where I can use my organization skills and eye for detail to write clean, elegant code.</p>	
+   	 		</div>
+   	 	</div>
+   	 </section>
+
+	<section id="work">
+		<div class="full-width">
+			<div class="third-width">
+        <img src="img/html-icon.png" alt="HTML icon"/>
+          <h3>Hand-coded HTML</h3>
+            <p>My focus is writing clean, well-formatted, semantic HTML5 by hand to make sure that the content is easy to read, easy to collaborate, trouble-shoot and accessible.</p>
+			</div>
+
+			<div class="third-width">
+        <img src="img/css-icon.png" alt="CSS-icon"/>
+          <h3>Well-organized CSS</h3>
+            <p>I pride myself on writing CSS that is easy to read and build on. I focus on keeping my CSS lean and fast to load, and I make it a habit to stay up to date on current best practices.</p>  
+			</div>
+
+			<div class="third-width">
+        <img src="img/pencil-icon.png" alt="pencil-icon"/>
+          <h3>Ease Converting Designs into Code</h3>
+            <p>You can trust me to take a designer’s PSD and quickly & accurately convert it into a webpage that is pixel-perfect match.</p>
+			</div>
+		</div>	
+	</section>
+
+	<footer id="contact">
+		<div class="full-width">
+			<div class="half-width">
+        <img src="img/contact-image.png" id="contact-image" alt="contact-image"/>
+			</div>
+			<div class="half-width">
+        <h2>Like what you see?</h2>
+        <h3 id="email-header">Let's meet for a cup of coffee.</h3>
+          <a href="mailto:hi@jubileeausten.com"><img src ="img/envelope.png" alt="envelope icon" id="envelope" />hi [@] jubileeausten.com</a>
+				
+        <div id="contact-info"> 
+          <H2 id="socialmedia-header">Or, find me on the internet</H2>
+          <ul>
+            <li><img src="img/github.png" alt="github"/></li>
+            <li><img src="img/instagram.png" alt="instagram"/></li>
+            <li><img src="img/linkedin.png" alt="linkedin"/></li>
+            <li><img src="img/twitter.png" alt="twitter"/></li>
+            <li><img src="img/tumblr.png" alt="tumbler"/></li>
+          </ul>
+				</div>
+			</div>	
+		</div>
+	</footer>
+
+	</main>
+    </body>
+</html>
+
+
+CSS:
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about, #work, #contact {
+    height: 650px;
+}
+
+/*****GRID*****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/*****Header*****/
+
+header {
+    height: 800px;
+    background: url("../img/hero.png");
+    background-size: cover;
+}
+
+header h1 {
+	padding: 50px 0;
+	font-family: 'Lora' serif;
+	color: #bbc085;
+	font-size: 30px;
+}
+
+
+nav {
+	float: right;
+	padding: 70px 40px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size:18px;
+	color:#828282;
+	padding-left: 80px;
+}
+
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #9b9b9b;
+    padding: 20px 0;
+}
+header h2 span {
+    color: #2b2b2b;
+}
+
+
+/*******About******/
+
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+	font-family: 'Lora', serif;
+	font-size: 36px;
+}
+
+#about p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 21px;
+	color: #7f7f7f;
+	line-height: 42px;
+    padding-right: 50px;
+}
+
+/*****work*****/
+
+#work {
+	background-color: #f9ceb7;
+	text-align: center;
+}
+
+#work .full-width {
+	padding: 115px 0;
+}
+
+#work img {
+	padding-bottom: 30px;
+}
+
+#work h3 {
+	font-size: 24px;
+	width: 190px;
+	margin: 0 auto;
+}
+
+#work p {
+	font-family: 'Lora' serif;
+	font-size: 18px;	
+	line-height: 30px;
+	color: #262a2b;
+	padding: 0 35px;
+
+}
+
+/*****Contact*****/
+
+#contact {
+	background-color: #ebebeb;
+}
+
+#contact .full-width {
+	padding; 110px 0;
+}
+
+#contact-image {
+	border: 12px solid #ffffff;
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+	padding-left: 115px;
+}
+
+#envelope {
+	padding: 0px 10px 0px 115px;
+}
+
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+}
+#email-header{
+    font-size: 32px;
+    font-weight: 400px;
+    margin: -30px 0 5px 0;
+}
+#socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color:#c49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 48px;
+}
+
