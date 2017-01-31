@@ -1,0 +1,14 @@
+Still working on FTPing my files.  I had to fix the structure of my folders and in doing so, it ended up being a g
+reat learning experience.  Now I'm uploading the files again but I'm finding that the FTP client I have to use (through 
+Dreamhost) doesn't accept my folder structure, which means my refs to images, etc. will have to be changed from "img/" to 
+nothing in front.  
+
+I'll work on getting in touch with Pydio (the FTP client) to see what can be done.  
+
+I also deleted some files from the FTP folder (that I hadn't uploaded) which must have been important (!!) as now I get a 
+404 message on the site when I try to see it online.  oops.  
+
+All good stuff.  Breaking things is a great way to learn!!
+
+Also listened to a great Blockchain Webinar about Hyperledger Fabric project.  Think I need to learn to code smart contracts...
+(I said it HERE first.)
